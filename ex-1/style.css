@@ -3,5 +3,17 @@
   padding: 0;
   margin: 0;
 }
-
-/* Start coding here */
+:root {
+  --secondary-color: cornsilk;
+  --padding-level5: 20px;
+  --brading-color: #ff7f50;
+  --Triple-Extra-Large: 100px;
+}
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--padding-level5);
+}
+h1 {
+  color: var(--brading-color);
+  font-size: var(--Triple-Extra-Large);
+}
